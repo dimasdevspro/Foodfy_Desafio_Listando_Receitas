@@ -46,7 +46,7 @@ Concluído
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_Admin">Inserindo Admin</a></li>
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_Persistindo_Dados">Persistindo Dados</a></li>
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_">Envio de Imagens Foodfy</a></li>
-<li><a href="https://github.com/dimasdevspro/Foodfy_Desafio_Upload_Imagens">Upload de Imagens Foodfy<a><li>
+<li><a href="https://github.com/dimasdevspro/Foodfy_Desafio_Upload_Imagens">Upload de Imagens Foodfy<a></li>
 </ul>
 
 
