@@ -20,14 +20,13 @@
 ### Sobre 
 [↩](#indice)
 
-<p>Atualizando projeto com bancos de dados SQL. Desafios propostos pela Rocketseat no Bootcamp Launchbase:</p>
+<p>Atualização do projeto, com página de busca de receitas reorganizada para busca ordenada e específica, conforme o desafio do Bootcamp Launchbase:</p>
 <ul >
- <li><a href="https://github.com/rocketseat-education/bootcamp-launchbase-desafios-07/blob/master/desafios/07-foodfy-envio-imagens.md" target="_blank">Desafio Foodfy;</a></li>
+ <li><a href="https://github.com/rocketseat-education/bootcamp-launchbase-desafios-08/blob/master/desafios/08-apresentacao-organizacao-receitas-foodfy.md" target="_blank">Desafio Foodfy;</a></li>
 </ul>
 <p>Detalhes do Projeto:</p>
 <ul>
- <li>Atualização do Banco de Dados SQL;</li>
- <li>Atualização da Área Administrativa para upload de Foto (Receitas e Chefs);</li>
+ <li>Melhorias na listagem de receitas.</li>
 </ul>
 
 ### Status do Projeto 
@@ -47,6 +46,7 @@ Concluído
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_Admin">Inserindo Admin</a></li>
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_Persistindo_Dados">Persistindo Dados</a></li>
 <li><a href="https://github.com/dimasdevspro/Desafio_Foodfy_">Envio de Imagens Foodfy</a></li>
+<li><a href="https://github.com/dimasdevspro/Foodfy_Desafio_Upload_Imagens">Upload de Imagens Foodfy<a><li>
 </ul>
 
 
@@ -59,14 +59,14 @@ Concluído
 - [x] Página de cada receita
 - [x] Gerenciar receitas - atualizado com Gerenciador de Imagens
 - [x] Banco de Dados
+- [x] Filtro com busca ordenada
 
 
 ### Demonstração da Aplicação 
 [↩](#indice)
 
-<h1 align="center"><img src="screenshots/Foodfy_Upload_Imagens.png" height="350" weigth="350"></h1>
-<h1 align="center"><img src="screenshots/Codigo_req_db.png" height="350" weigth="350"></h1>
-<h1 align="center"><img src="screenshots/DB_Foodfy.gif" height="350" weigth="350"></h1>
+<h1 align="center"><img src="screenshots/Foodfy_Listando_Receitas.gif" height="350" weigth="350"></h1>
+
 
 
 
@@ -98,10 +98,10 @@ $ https://code.visualstudio.com/
 # Acesse o terminal/cmd de sua plataforma (Win, Linux, etc)
 
 # Clone este repositório com o seguinte comando abaixo
-$ git clone https://github.com/dimasdevspro/Foodfy_Desafio_Upload_Imagens
+$ git clone https://github.com/dimasdevspro/Foodfy_Desafio_Listando_Receitas
 
 # Ainda no terminal, acesse a pasta com mais um comando
-$ cd Foodfy_Desafio_Upload_Imagens
+$ cd Foodfy_Desafio_Listando_Receitas
 
 # Agora digite este comando, para editar/testar o projeto
 $ code .
@@ -118,7 +118,7 @@ Instalação de Dependências "Express", "Nodemon", "Nunjucks", "Browsersync", "
 $ "New Terminal"
 
 # Certifique-se que o terminal está com o caminho de sua pasta, i.e
-$ /Foodfy_Desafio_Upload_Imagens/
+$ /Foodfy_Desafio_Listando_Receitas/
 
 # Digite o comando no terminal para instalar o Express
 $ npm install express
@@ -139,7 +139,7 @@ $ npm install browser-sync npm-run-all
 "scripts": {
     "start": "npm-run-all -p nodemon browser-sync",
     "nodemon": "nodemon src/server.js",
-    "browser-sync": "browser-sync start --proxy http://localhost:3333 --files 'public, src/app/admin, src/app/views'"
+    "browser-sync": "browser-sync start --proxy http://localhost:3336 --files 'public, src/app/admin, src/app/views'"
   },
 
 # Digite o comando no terminal para instalar o "Postgre"
